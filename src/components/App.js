@@ -54,16 +54,16 @@ const App = () => {
           </button>
         </section>
       </section>
-      <section className="lap-section">
+      {laps.length>0 && (<section className="lap-section">
         <h2>Laps</h2>
         <section className="laps">
-          {laps.map((lap, index) => (
+          { laps.map((lap, index) => (
             <p key={index} className="lap-time">
               {(lap / 1000).toFixed(3)}
             </p>
           ))}
         </section>
-      </section>
+      </section>)}
     </div>
   );
 };
