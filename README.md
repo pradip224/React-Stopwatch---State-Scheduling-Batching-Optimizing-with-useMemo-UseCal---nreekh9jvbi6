@@ -1,7 +1,7 @@
 # React Stopwatch
 
 This is a simple stopwatch application built using React and the `useRef` hook. It allows you to start, stop, lap, and reset the stopwatch time.
-![home](https://github.com/pradip224/React-Stopwatch---State-Scheduling-Batching-Optimizing-with-useMemo-UseCal---nreekh9jvbi6/assets/122960934/f6faca6e-7bbb-4e14-917c-35bc8eae9ddd)
+![home](https://github.com/pradip224/React-Stopwatch---State-Scheduling-Batching-Optimizing-with-useMemo-UseCal---nreekh9jvbi6/assets/122960934/8b793882-b19e-42e0-9078-ad556502c294)
 
 ## Getting Started
 
@@ -47,16 +47,16 @@ npm start
 The stopwatch application provides the following features:
 
 - **START**: Clicking the "START" button will start the stopwatch time. The time on the screen will be updated every 10 milliseconds.
-![start](https://github.com/pradip224/React-Stopwatch---State-Scheduling-Batching-Optimizing-with-useMemo-UseCal---nreekh9jvbi6/assets/122960934/bb08a812-acfb-40f2-902f-467bf3b6f372)
+![start](https://github.com/pradip224/React-Stopwatch---State-Scheduling-Batching-Optimizing-with-useMemo-UseCal---nreekh9jvbi6/assets/122960934/adedc68f-1ade-428f-a628-60bfff754b46)
 
 - **STOP**: Clicking the "STOP" button will stop the stopwatch time. The time on the screen will freeze until you start it again.
-![stop](https://github.com/pradip224/React-Stopwatch---State-Scheduling-Batching-Optimizing-with-useMemo-UseCal---nreekh9jvbi6/assets/122960934/b86c5015-0798-4f31-b433-c098375873a4)
+![stop](https://github.com/pradip224/React-Stopwatch---State-Scheduling-Batching-Optimizing-with-useMemo-UseCal---nreekh9jvbi6/assets/122960934/bc2a00dd-fb68-4434-a99e-6c66b8186a1c)
 
 - **LAP**: Clicking the "LAP" button will show the lap time and append it to the section with the class "laps". The lap section will only be visible when you click the "LAP" button and a lap time is added.
-![laps](https://github.com/pradip224/React-Stopwatch---State-Scheduling-Batching-Optimizing-with-useMemo-UseCal---nreekh9jvbi6/assets/122960934/8cb17006-a61e-42fc-ae4b-70564153de93)
+![laps](https://github.com/pradip224/React-Stopwatch---State-Scheduling-Batching-Optimizing-with-useMemo-UseCal---nreekh9jvbi6/assets/122960934/fc81b0da-2931-4cac-b2aa-35cf62925193)
 
 - **RESET**: Clicking the "RESET" button will reset the stopwatch time to its initial value, which is 0.000 (up to 3 decimal places).
-![reset](https://github.com/pradip224/React-Stopwatch---State-Scheduling-Batching-Optimizing-with-useMemo-UseCal---nreekh9jvbi6/assets/122960934/1888d82a-7fe5-47e1-b1c4-78bd20b6daa1)
+![reset](https://github.com/pradip224/React-Stopwatch---State-Scheduling-Batching-Optimizing-with-useMemo-UseCal---nreekh9jvbi6/assets/122960934/89b3f67e-cb15-41dd-80aa-557fffc81a10)
 
 ## Implementation Details
 
